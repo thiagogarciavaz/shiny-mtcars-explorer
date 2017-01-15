@@ -1,0 +1,37 @@
+Course Project :: MTCars Explorer
+========================================================
+author: Thiago Vaz
+date: 2017, January 14th
+autosize: true
+
+Overview
+========================================================
+
+This document is part of the Final Project of "Developing Data Products" course.
+
+Beyond this presentation, you can also found:
+
+- Shiny App: https://thiagogarciavaz.shinyapps.io/mtcars_explorer/
+- Full code: https://github.com/thiagogarciavaz/shiny-mtcars-explorer
+
+Shiny App
+========================================================
+We create an app to explore fuel consumption between some cars, providing an UI where everyone can deep dive into important variables that cause this outcome.
+
+The goal is to show the importance of some features (weight, hp, number of cylinders, etc) when we're analysing fuel consumption.
+
+Dataset datails
+========================================================
+
+```{r}
+summary(mtcars)
+```
+
+Example
+========================================================
+
+```{r, echo=FALSE}
+library(plotly)
+plot(x = mtcars$wt, y = mtcars$mpg, color = as.factor(mtcars$cyl))
+
+```

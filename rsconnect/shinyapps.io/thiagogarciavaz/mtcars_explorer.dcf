@@ -1,0 +1,11 @@
+name: mtcars_explorer
+title: MTCars Explorer
+account: thiagogarciavaz
+server: shinyapps.io
+appId: 151122
+bundleId: 679957
+url: https://thiagogarciavaz.shinyapps.io/mtcars_explorer/
+when: 1484476169.90834
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: slides/mtcars-explorer-rpubs.html|slides/mtcars-explorer.md|slides/mtcars-explorer.Rpres|slides/mtcars-explorer-figure/unnamed-chunk-2-1.png|slides/rsconnect/documents/mtcars-explorer-rpubs.html/rpubs.com/rpubs/Presentation.dcf
